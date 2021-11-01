@@ -1,6 +1,6 @@
 # rsap2p
 
-去中心化端对端加密通信软件.
+去中心化端对端加密通信工具.
 
 ## 功能
 
@@ -104,3 +104,6 @@ TCPp2p_CUI(('0.0.0.0',23333),'userElaina','127.0.0.1').joins()
 
 #### 效果图
 ![img](log/cui.png)
+
+### rsap2p.MySSH
+服务端运行 `MySSHServer` 后, 客户端通过 `MySSH ip port name` 连接.
